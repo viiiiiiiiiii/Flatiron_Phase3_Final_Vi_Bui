@@ -1,45 +1,64 @@
-# Flatiron_Phase3_Final_Vi_Bui
-Phase 3 Project - Jupyter Notebook and Presentation
+# Flatiron Phase3 - Final Project by Vi Bui
+# Data Science Career Change Likelihood
 
-<img src='images/King County.jpeg'>
+<img src='images/Data-Science-Career-Transition.jpeg'>
 
-**King County, WA, U.S.A.**  
+## Overview
 
-# Housing Guidance for King County, WA, U.S.A
+**Client:** RADS - Recruiting Awesome Data Scientists Incorporation. Data Scientist recruiting firm looking for potential future Data Scientists. 
 
-# Overview
+**Data, Methodology, and Analysis:** <br/> 
 
-**Client:** New WA state home buyers needing consultation on WA real estate market and expectations (price, size, location) 
+Data source: HR Analytics https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists <br/>
 
-**Data, Methodology, and Analysis:** Using King County (WA, U.S.A.) housing data from 2014-2015, linear regression models were built to understand the relationship between price and all other variables in the data (square feet, bedrooms, bathrooms, zipcodes, year built, year renovated, waterfront views)
+Context: the data is from a company that is active in Big Data and Data Science and ran a training program with the intention to hire data scientists among people who successfully passed courses they conducted. 
 
-**Results & Recommendations:** After analyzing data and building linear regression models assessing relationships between price and square feet; price and bedrooms; and price to zip code, the expectations for price range were modeled depending on square feet of living space, grade, condition, and renovation status 
+This dataset includes current credentials, demographics, experience, education, which will help us build models for RADs about candidates that are likely to be looking for a job change. 
 
+**Models:** 
 
-# RESULTS - FINAL MODEL
+1. Logistic Regression Classifier
+2. Decision Tree Classifier
+3. Random Forest Classifier
+4. Gradient Booster Classifier
 
-** Final Model includes: 
+### Feature Description Definitions
 
-1. Bedrooms 
-2. Bathrooms 
-3. Square Feet Living
-4. Floors
-5. Waterfront 
-6. Condition
-7. Grade
-8. Renovation Status
-9. Basement Present
-10. All Zipcodes
+**Features included in dataset**
 
-Excluding zipcodes, **Square Feet Living, Grade, and Condition are the strongest determinants of price** 
+enrollee_id: Unique ID for candidate
 
-<img src='images/Final Model.png'>
+city: City code
 
-<img src='images/Square Feet Living.png'>
+city_development_index: Development index of the city (scaled)
 
-<img src='images/Building Grade.png'>
+gender: Gender of candidate
 
-<img src='images/Condition.png'>
+relevant_experience: Relevant experience of candidate
+
+enrolled_university: Type of University course enrolled if any
+
+education_level: Education level of candidate
+
+major_discipline: Education major discipline of candidate
+
+experience: Candidate total experience in years
+
+company_size: Number of employees in current employer's company
+
+company_type: Type of current employer
+
+lastnewjob: Difference in years between previous job and current job
+
+training_hours: Data science course training hours completed
+
+target: 0 – Not looking for job change, 1 – Looking for a job change
+
+**The data is skewed: Male; Major/Discipline - STEM
+
+<img src='images/DS_Gender.png'>
+
+<img src='images/DS_Major.png'>
 
 
 ## Check for Linearity and Residual Normality using Q-Q Plot 
