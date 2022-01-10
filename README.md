@@ -1,4 +1,4 @@
-# Flatiron Phase3 - Final Project by Vi Bui
+# Flatiron Phase 3 - Final Project by Vi Bui
 # Data Science Career Change Likelihood
 
 <img src='images/Data-Science-Career-Transition.jpeg'>
@@ -7,7 +7,7 @@
 
 **Client:** RADS - Recruiting Awesome Data Scientists Incorporation. Data Scientist recruiting firm looking for potential future Data Scientists. 
 
-##Data, Methodology, and Analysis** <br/> 
+## Data, Methodology, and Analysis <br/> 
 
 Data source: HR Analytics https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists <br/>
 
@@ -24,7 +24,7 @@ This dataset includes current credentials, demographics, experience, education, 
 
 ### Feature Description Definitions
 
-**Features included in dataset**
+**Features included in dataset:**
 
 enrollee_id: Unique ID for candidate
 
@@ -61,7 +61,9 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 
 
 ## OBSERVATIONS ABOUT THE DATA
-### The data is skewed: Male; Major/Discipline - STEM**
+### The data is skewed: 
+- 69% Male
+- 76% Major/Discipline - STEM
 
 <img src='images/DS_Gender.png'>
 
@@ -99,11 +101,11 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 <img src='images/Important_Features.png'>
 
 
- ##**CONCLUSIONS** 
+ ## **CONCLUSIONS** 
 - While this data gives us insight into the importance of location, company size, education, and experience in identifying those looking to change jobs, there are endless ways to use this data to help RADs build a future for Data Scientists
 
-##**FUTURE WORK**
-- Identify recruitment opportunities and strategies for RADs’ Data Science program (recruit more females; recruit 'unlikely' candidates that do not have a background in STEM; recruit in various cities)
+## **FUTURE WORK**
+- Identify recruiting opportunities and strategies for RADs’ Data Science program (recruit more females; recruit 'unlikely' candidates that do not have a background in STEM; recruit in various cities)
 - Offer another round of Data Science training curriculum to engage more employees 
 - Gather more data following Round 2 and re-run models
 - Continue refining overall process and models
@@ -114,6 +116,8 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 
 - images 
 - README.me
-- Vi_Bui_Phase3_Project_FINAL_Presentation.PDFpdf
-- Vi_Bui_Phase3_Project_FINAL - Jupyter Notebook.pdf
 - Vi_Bui_Phase3_Project_FINAL.ipynb
+- Vi_Bui_Phase3_Project_FINAL - Jupyter Notebook.pdf
+- Vi_Bui_Phase3_Project_FINAL_PresentationPDF.pdf
+
+
