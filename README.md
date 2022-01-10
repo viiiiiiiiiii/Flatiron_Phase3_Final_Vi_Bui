@@ -3,17 +3,17 @@
 
 <img src='images/Data-Science-Career-Transition.jpeg'>
 
-## Overview
+# Overview
 
 **Client:** RADS - Recruiting Awesome Data Scientists Incorporation. Data Scientist recruiting firm looking for potential future Data Scientists. 
 
-**Data, Methodology, and Analysis:** <br/> 
+##Data, Methodology, and Analysis** <br/> 
 
 Data source: HR Analytics https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists <br/>
 
-Context: the data is from a company that is active in Big Data and Data Science and ran a training program with the intention to hire data scientists among people who successfully passed courses they conducted. 
+Context: the data is from a company that is active in Big Data and Data Science and ran a training program with the intention to hire data scientists among people who successfully passed courses they conducted
 
-This dataset includes current credentials, demographics, experience, education, which will help us build models for RADs about candidates that are likely to be looking for a job change. 
+This dataset includes current credentials, demographics, experience, education, training hours and several features, which will help us build models for RADs about candidates that are likely to be looking for a job change 
 
 **Models Built:** 
 
@@ -54,18 +54,50 @@ training_hours: Data science course training hours completed
 
 target: 0 – Not looking for job change, 1 – Looking for a job change
 
-**The data is skewed: Male; Major/Discipline - STEM**
+<br>
+
+## BUSINESS VALUE
+<img src='images/Business_Value.png'>
+
+
+## OBSERVATIONS ABOUT THE DATA
+### The data is skewed: Male; Major/Discipline - STEM**
 
 <img src='images/DS_Gender.png'>
 
 <img src='images/DS_Major.png'>
 
+
+<br>
+
+### Most participants trained for 50 hours or less and about 25% changed jobs
+
 <img src='images/DS_Training_Hours.png'>
 
 <img src='images/DS_Career_Change.png'>
 
-##Business Value
-<img src='images/Business_Value.png'>
+<br>
+
+# Models & Metrics 
+## We ran various models and chose the model with the highest recall rate 
+
+- Because there is a smaller portion of participants who changed jobs (25%), the metric we used to measure our models' performances was Recall 
+
+- Recall measures the % a model predicts True Positives (employees "Looking for a Job Change") that actually are looking for a job change
+
+- Our model is expected to predict True Positives (i.e. predict employees "Looking for a Job Change" that are actually looking for a job change) 77% of the time
+
+
+<img src='images/Model_Results.png'>
+
+## THE MOST IMPORTANT DETERMINANT OF JOB CHANGE IS CITY DEVELOPMENT INDEX
+### Other important features (some which also ranked high in other models are): 
+- Experience 
+- Small company size (<10 to 500)
+- Education level: Graduate Degree
+
+<img src='images/Important_Features.png'>
+
 
  ##**CONCLUSIONS** 
 - While this data gives us insight into the importance of location, company size, education, and experience in identifying those looking to change jobs, there are endless ways to use this data to help RADs build a future for Data Scientists
@@ -82,6 +114,6 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 
 - images 
 - README.me
-- Vi_Bui_Phase2_Final_Project_Presentation.pdf
-- Vi_Bui_Phase2_Project_FinalFinal - Jupyter Notebook.pdf
-- Vi_Bui_Phase2_Project_FinalFinal.ipynb
+- Vi_Bui_Phase3_Project_FINAL_Presentation.PDFpdf
+- Vi_Bui_Phase3_Project_FINAL - Jupyter Notebook.pdf
+- Vi_Bui_Phase3_Project_FINAL.ipynb
