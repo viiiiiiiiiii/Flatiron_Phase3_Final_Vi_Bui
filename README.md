@@ -98,8 +98,6 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 - Small company size (<10 to 500)
 - Education level: Graduate Degree
 
-<img src='images/Important_Features.png'>
-
 
  ## **CONCLUSIONS** 
 - While this data gives us insight into the importance of location, company size, education, and experience in identifying those looking to change jobs, there are endless ways to use this data to help RADs build a future for Data Scientists
