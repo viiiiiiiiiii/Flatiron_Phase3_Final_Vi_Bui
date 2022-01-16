@@ -57,8 +57,7 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 <br>
 
 ## BUSINESS VALUE
-
-<img src='images/Business_Value.png'>
+<img src='images/Business_Value_New.png'>
 
 
 ## OBSERVATIONS ABOUT THE DATA
