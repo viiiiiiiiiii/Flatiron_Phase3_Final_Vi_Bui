@@ -117,6 +117,6 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 - Vi_Bui_Phase3_Project_FINAL_FINAL.ipynb
 - Vi_Bui_Phase3_Project_FINAL_FINAL - Jupyter Notebook.pdf
 - Vi_Bui_Phase3_Project_FINAL_FINAL_PresentationPDF.pdf
-- https://github.com/viiiiiiiiiii/Flatiron_Phase3_Final_Vi_Bui/edit/main/README.md.pdf
+- Flatiron_Phase3_Final_Vi_Bui/edit/main/README.md.pdf
 
 
